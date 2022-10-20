@@ -1,0 +1,21 @@
+
+系数2.8 卖出 平仓策略
+python boll2s.py TSLA 10
+
+系数2.8 买入 平仓策略
+python boll2.py TSLA 10
+
+系数2.5 卖出 平仓策略
+python boll1s.py TSLA 10
+
+系数2.5 买入 平仓策略
+python boll1.py TSLA 10
+
+系数2.2 卖出 平仓策略
+python boll0s.py TSLA 10
+
+系数2.2 买入 平仓策略
+python boll0.py TSLA 10
+
+后面的参数 TSLA 可以换成其他个股
+分钟数 也可以换成其他分钟数

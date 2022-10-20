@@ -1,0 +1,21 @@
+EM12:EMA(CLOSE,12),COLORWHITE;
+EM144:EMA(CLOSE,144),COLORRED;
+EM169:EMA(CLOSE,169),COLORBLUE;
+EM576:EMA(CLOSE,576),COLORCYAN;
+EM676:EMA(CLOSE,676),COLORYELLOW;
+
+----------------------------------
+
+12				过滤线
+12 * 12 = 144 	中通道
+13 * 13 = 169   中通道
+144 * 4 = 576	4倍通道
+169 * 4 = 676   4倍通道
+
+----------------------------------
+
+MACD 阳柱 且 K线突破 EMA 12 ， BUY
+K线跌破 EMA 12 ,			   CLOSE 
+
+MACD 阴柱 且 K线跌破 EMA 12 ， SELL
+MACD 阳柱 且 K线突破 EMA 12 ， CLOSE
